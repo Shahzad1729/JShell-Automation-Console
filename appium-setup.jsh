@@ -103,8 +103,8 @@ public void scrollDown(int scrollTime, String scrollTill) {
 DesiredCapabilities caps = new DesiredCapabilities();
 
 caps.setCapability("platformName", "Android");
-caps.setCapability("appium:appPackage", "com.rws.gausamriddhi.sit1");
-caps.setCapability("appium:appActivity", "com.rws.gausamriddhi.ui.splash.SplashActivity");
+caps.setCapability("appium:appPackage", "");
+caps.setCapability("appium:appActivity", "");
 caps.setCapability("appium:udid", "127.0.0.1:6555");
 caps.setCapability("appium:platformVersion", "12.0.0");
 caps.setCapability("appium:automationName", "uiautomator2");
