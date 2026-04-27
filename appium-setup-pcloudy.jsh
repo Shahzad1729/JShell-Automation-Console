@@ -115,9 +115,9 @@ public void swipeLeft(WebElement element, int time) {
 	
 	
 	
-			String appPackage = "com.rws.gausamriddhi.sit1";
-			String appActivity = "com.rws.gausamriddhi.ui.splash.SplashActivity";
-			String apkName = "JCMS_ANDROID_Sit1_V_2_0_5_62834_27Oct.apk";
+			String appPackage = "";
+			String appActivity = "";
+			String apkName = "";
 			
 			
 			DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -149,7 +149,7 @@ public void swipeLeft(WebElement element, int time) {
 			capabilities.setCapability("appium:pCloudy_EnableDeviceLogs", "true");
 			capabilities.setCapability("appium:pCloudy_WildNet", "false");
 
-			AndroidDriver driver = new AndroidDriver(new URL("https://mobilab.ril.com/appiumcloud/wd/hub"), capabilities);
+			AndroidDriver driver = new AndroidDriver(new URL("https://example.com/appiumcloud/wd/hub"), capabilities);
 
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
