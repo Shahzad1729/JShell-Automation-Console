@@ -99,7 +99,7 @@ driver.get("https://example.com");
 Locate Element
 var element = driver.findElement(By.id("username"));
 Perform Action
-element.sendKeys("testuser");
+element.sendKeys("testuser");```
 ## 🔄 Workflow
 Start JShell
 Load required classes
